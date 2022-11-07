@@ -6,7 +6,7 @@ using namespace std;
 
 int level=0;
 
-//-----introdusing header and footer for maintain an unique labels in every page-----
+//-----introducing header and footer for maintain an unique labels in every page-----
 void header(){
 	if (level != 0){
 		cout<<"========================================================================"<<endl;
