@@ -23,6 +23,7 @@ void header(){
 void footer(){
 	cout<<"\n========================================================================"<<endl;
 }
+
 //---------------------------------------------------------------------------------
 
 int main(){
@@ -733,10 +734,10 @@ int main(){
 	
 	//Putting the data in the 2D array into the file
 	fprintf(file,"%s       %s          %s          %s          %s          %s\n",rslt[0][0].c_str(),rslt[0][1].c_str(),rslt[0][2].c_str(),rslt[0][3].c_str(),rslt[0][4].c_str(),rslt[0][5].c_str());
-    fprintf(file,"\n%s        %s            %s             %s             %s            %s\n",rslt[1][0].c_str(),rslt[1][1].c_str(),rslt[1][2].c_str(),rslt[1][3].c_str(),rslt[1][4].c_str(),rslt[1][5].c_str());
-    fprintf(file,"%s        %s            %s             %s             %s            %s\n",rslt[2][0].c_str(),rslt[2][1].c_str(),rslt[2][2].c_str(),rslt[2][3].c_str(),rslt[2][4].c_str(),rslt[2][5].c_str());
-    fprintf(file,"%s        %s            %s             %s             %s            %s\n",rslt[3][0].c_str(),rslt[3][1].c_str(),rslt[3][2].c_str(),rslt[3][3].c_str(),rslt[3][4].c_str(),rslt[3][5].c_str());
-    fprintf(file,"%s        %s            %s             %s             %s            %s\n",rslt[4][0].c_str(),rslt[4][1].c_str(),rslt[4][2].c_str(),rslt[4][3].c_str(),rslt[4][4].c_str(),rslt[4][5].c_str());
+    	fprintf(file,"\n%s        %s            %s             %s             %s            %s\n",rslt[1][0].c_str(),rslt[1][1].c_str(),rslt[1][2].c_str(),rslt[1][3].c_str(),rslt[1][4].c_str(),rslt[1][5].c_str());
+    	fprintf(file,"%s        %s            %s             %s             %s            %s\n",rslt[2][0].c_str(),rslt[2][1].c_str(),rslt[2][2].c_str(),rslt[2][3].c_str(),rslt[2][4].c_str(),rslt[2][5].c_str());
+    	fprintf(file,"%s        %s            %s             %s             %s            %s\n",rslt[3][0].c_str(),rslt[3][1].c_str(),rslt[3][2].c_str(),rslt[3][3].c_str(),rslt[3][4].c_str(),rslt[3][5].c_str());
+    	fprintf(file,"%s        %s            %s             %s             %s            %s\n",rslt[4][0].c_str(),rslt[4][1].c_str(),rslt[4][2].c_str(),rslt[4][3].c_str(),rslt[4][4].c_str(),rslt[4][5].c_str());
     
 	fprintf(file,"\nYou scored %d marks out of 20 marks!\n",totScore);
 	fprintf(file,"\nGood luck!\n");
